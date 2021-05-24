@@ -1,10 +1,10 @@
 # Kubernetes bootstrap with Kubeadm on GCP and Ubuntu 20.04
 
-Simple guidance for manual cluster bootstrap example from scratch, was tested on v1.20
+Example for manual cluster bootstrap from scratch, was tested on v1.20
 
-Was inspired by official doc and the following articles:
-https://kvaps.medium.com/creating-high-available-baremetal-kubernetes-cluster-with-kubeadm-and-keepalived-simplest-guide-71766d5e25ae
-https://kvaps.medium.com/for-make-this-scheme-more-safe-you-can-add-haproxy-layer-between-keepalived-and-kube-apiservers-62c344283076
+Was inspired by official doc and the following articles:    
+https://kvaps.medium.com/creating-high-available-baremetal-kubernetes-cluster-with-kubeadm-and-keepalived-simplest-guide-71766d5e25ae    
+https://kvaps.medium.com/for-make-this-scheme-more-safe-you-can-add-haproxy-layer-between-keepalived-and-kube-apiservers-62c344283076    
 
 ## GCP resources creation
 
