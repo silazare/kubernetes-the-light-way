@@ -41,8 +41,8 @@ gcloud compute firewall-rules list --filter="network:k8s-vpc"
 - Configure IAP tunneling:
 
 ```
-gcloud projects add-iam-policy-binding reliable-fort-313713 \
-    --member=user:drenora@gmail.com \
+gcloud projects add-iam-policy-binding <project-id> \
+    --member=user:<usermail> \
     --role=roles/iap.tunnelResourceAccessor
 
 gcloud compute routers create nat-router \
